@@ -1,4 +1,4 @@
-Sistema de Gestión de Biblioteca con Grafos
+<b>Sistema de Gestión de Biblioteca con Grafos</b> <br>
 Este proyecto consiste en la implementación de un sistema de gestión de biblioteca utilizando estructuras de grafos para mejorar la eficiencia en las interacciones entre usuarios y libros. La aplicación está desarrollada en Java y utiliza conceptos de grafos dirigidos ponderados para modelar las relaciones entre los elementos del sistema bibliotecario.
 
 Funcionalidades
