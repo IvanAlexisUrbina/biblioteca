@@ -1,46 +1,49 @@
-<b>Sistema de Gestión de Biblioteca con Grafos</b> <br>
-Este proyecto consiste en la implementación de un sistema de gestión de biblioteca utilizando estructuras de grafos para mejorar la eficiencia en las interacciones entre usuarios y libros. La aplicación está desarrollada en Java y utiliza conceptos de grafos dirigidos ponderados para modelar las relaciones entre los elementos del sistema bibliotecario.
 
-Funcionalidades
-Inserción de Usuarios y Libros: Permite agregar nuevos usuarios y libros al sistema.
+  <h1>Sistema de Gestión de Biblioteca con Grafos</h1>
 
-Préstamo y Devolución de Libros: Los usuarios pueden realizar préstamos de libros y devolverlos una vez finalizada su lectura.
+  <p>Este proyecto consiste en la implementación de un sistema de gestión de biblioteca utilizando estructuras de grafos para mejorar la eficiencia en las interacciones entre usuarios y libros. La aplicación está desarrollada en Java y utiliza conceptos de grafos dirigidos ponderados para modelar las relaciones entre los elementos del sistema bibliotecario.</p>
 
-Búsqueda de Libros y Usuarios: Facilita la búsqueda rápida de libros y usuarios dentro del sistema.
+  <h2>Funcionalidades</h2>
 
-Recomendaciones Personalizadas: Basándose en las interacciones y relaciones entre usuarios y libros, el sistema puede proporcionar recomendaciones personalizadas de libros.
+  <ul>
+    <li><strong>Inserción de Usuarios y Libros:</strong> Permite agregar nuevos usuarios y libros al sistema.</li>
+    <li><strong>Préstamo y Devolución de Libros:</strong> Los usuarios pueden realizar préstamos de libros y devolverlos una vez finalizada su lectura.</li>
+    <li><strong>Búsqueda de Libros y Usuarios:</strong> Facilita la búsqueda rápida de libros y usuarios dentro del sistema.</li>
+    <li><strong>Recomendaciones Personalizadas:</strong> Basándose en las interacciones y relaciones entre usuarios y libros, el sistema puede proporcionar recomendaciones personalizadas de libros.</li>
+  </ul>
 
-Estructura del Proyecto
-El proyecto se divide en los siguientes paquetes:
+  <h2>Estructura del Proyecto</h2>
 
-modelo: Contiene las clases que definen los elementos del sistema bibliotecario, como Alumno, Libro, Grafo, entre otras.
+  <p>El proyecto se divide en los siguientes paquetes:</p>
 
-controlador: Incluye las clases encargadas de gestionar las operaciones del sistema, como ControladorBiblioteca, ControladorGrafo, etc.
+  <ul>
+    <li><strong>modelo:</strong> Contiene las clases que definen los elementos del sistema bibliotecario, como Alumno, Libro, Grafo, entre otras.</li>
+    <li><strong>controlador:</strong> Incluye las clases encargadas de gestionar las operaciones del sistema, como ControladorBiblioteca, ControladorGrafo, etc.</li>
+    <li><strong>vista:</strong> Contiene las clases encargadas de la interfaz de usuario, como VistaBiblioteca, VistaGrafo, etc.</li>
+    <li><strong>util:</strong> Contiene clases de utilidad para el funcionamiento del sistema.</li>
+  </ul>
 
-vista: Contiene las clases encargadas de la interfaz de usuario, como VistaBiblioteca, VistaGrafo, etc.
+  <h2>Uso</h2>
 
-util: Contiene clases de utilidad para el funcionamiento del sistema.
+  <ol>
+    <li>Clona o descarga el repositorio en tu máquina local.</li>
+    <li>Abre el proyecto en tu entorno de desarrollo Java favorito.</li>
+    <li>Ejecuta la clase Principal para iniciar la aplicación.</li>
+    <li>Utiliza la interfaz de usuario para realizar las diferentes operaciones disponibles en el sistema.</li>
+  </ol>
 
-Uso
-Clona o descarga el repositorio en tu máquina local.
+  <h2>Requisitos del Sistema</h2>
 
-Abre el proyecto en tu entorno de desarrollo Java favorito.
+  <p>Java JDK 8 o superior instalado en tu máquina.</p>
 
-Ejecuta la clase Principal para iniciar la aplicación.
+  <h2>Contribuciones</h2>
 
-Utiliza la interfaz de usuario para realizar las diferentes operaciones disponibles en el sistema.
+  <p>Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:</p>
 
-Requisitos del Sistema
-Java JDK 8 o superior instalado en tu máquina.
-Contribuciones
-Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
-
-Realiza un fork del repositorio.
-
-Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
-
-Realiza tus modificaciones y haz commit de los cambios (git commit -am 'Agrega nueva funcionalidad').
-
-Sube tus cambios a tu repositorio remoto (fork) (git push origin feature/nueva-funcionalidad).
-
-Crea un nuevo Pull Request.
+  <ol>
+    <li>Realiza un fork del repositorio.</li>
+    <li>Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).</li>
+    <li>Realiza tus modificaciones y haz commit de los cambios (git commit -am 'Agrega nueva funcionalidad').</li>
+    <li>Sube tus cambios a tu repositorio remoto (fork) (git push origin feature/nueva-funcionalidad).</li>
+    <li>Crea un nuevo Pull Request.</li>
+  </ol>
